@@ -24,7 +24,7 @@ Proyecto de API RESTful construida con **Node.js** y **Express** para la gestió
    cd <NOMBRE_DE_LA_CARPETA>
 Instala las dependencias:
 
-bash
+```bash
 Copiar
 Editar
 npm install
@@ -38,20 +38,20 @@ JWT_SECRET=tu_secreto_super_seguro
 ▶️ Ejecución
 Para iniciar el servidor, ejecuta:
 
-bash
+```bash
 Copiar
 Editar
 npm start
 o
 
-bash
+```bash
 Copiar
 Editar
 node app.js
 El servidor arrancará en el puerto definido en .env (por defecto 3000).
 
 📂 Estructura del Proyecto
-bash
+```bash
 Copiar
 Editar
 /controllers
@@ -150,14 +150,14 @@ La base de datos es un archivo JSON para facilitar la persistencia en proyectos 
 
 💡 Ejemplo rápido de uso con curl
 1. Login
-bash
+```bash
 Copiar
 Editar
 curl -X POST http://localhost:3000/login \
   -H "Content-Type: application/json" \
   -d '{"username":"admin","password":"admin123"}'
 2. Crear un libro
-bash
+```bash
 Copiar
 Editar
 curl -X POST http://localhost:3000/books \

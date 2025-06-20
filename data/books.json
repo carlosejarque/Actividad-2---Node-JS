@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "title": "Cien años de soledad",
+    "author": "Gabriel García Márquez",
+    "description": "Una de las obras más importantes de la literatura hispanoamericana.",
+    "publishDate": "1967-05-30"
+  },
+  {
+    "id": 2,
+    "title": "1984",
+    "author": "George Orwell",
+    "description": "Una novela distópica sobre el control totalitario.",
+    "publishDate": "1949-06-08"
+  },
+  {
+    "id": 3,
+    "title": "El Quijote",
+    "author": "Miguel de Cervantes",
+    "description": "La gran novela de Cervantes.",
+    "publishDate": "1605-01-16"
+  },
+  {
+    "id": 4,
+    "title": "Fahrenheit 451",
+    "author": "Ray Bradbury",
+    "description": "",
+    "publishDate": "1953-10-19"
+  },
+  {
+    "title": "Miou",
+    "author": "Carlos",
+    "id": 5
+  }
+]

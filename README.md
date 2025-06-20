@@ -24,7 +24,7 @@ Proyecto de API RESTful construida con **Node.js** y **Express** para la gestió
    cd <NOMBRE_DE_LA_CARPETA>
 Instala las dependencias:
 
-```bash
+bash
 Copiar
 Editar
 npm install
@@ -38,20 +38,20 @@ JWT_SECRET=tu_secreto_super_seguro
 ▶️ Ejecución
 Para iniciar el servidor, ejecuta:
 
-```bash
+bash
 Copiar
 Editar
 npm start
 o
 
-```bash
+bash
 Copiar
 Editar
 node app.js
 El servidor arrancará en el puerto definido en .env (por defecto 3000).
 
 📂 Estructura del Proyecto
-```bash
+bash
 Copiar
 Editar
 /controllers
@@ -140,27 +140,3 @@ El campo description es opcional.
 El campo publishDate debe ser una fecha válida en formato YYYY-MM-DD.
 
 Si los datos no cumplen las validaciones, la API responde con error 400 y detalle del problema.
-
-📝 Notas
-No subas el archivo .env a ningún repositorio público.
-
-Puedes modificar y ampliar los endpoints o la estructura según tus necesidades.
-
-La base de datos es un archivo JSON para facilitar la persistencia en proyectos pequeños.
-
-💡 Ejemplo rápido de uso con curl
-1. Login
-```bash
-Copiar
-Editar
-curl -X POST http://localhost:3000/login \
-  -H "Content-Type: application/json" \
-  -d '{"username":"admin","password":"admin123"}'
-2. Crear un libro
-```bash
-Copiar
-Editar
-curl -X POST http://localhost:3000/books \
-  -H "Content-Type: application/json" \
-  -H "Authorization: Bearer <jwt_token>" \
-  -d '{"title":"Nuevo libro","author":"Carlos","description":"Demo","publishDate":"2024-06-20"}'
